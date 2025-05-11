@@ -48,7 +48,11 @@
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.IncorrectEmptyLinesAfterOpeningBrace"/>
         <exclude name="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces.IncorrectEmptyLinesBeforeClosingBrace"/>
         <exclude name="SlevomatCodingStandard.Commenting.RequireOneLineDocComment.MultiLineDocComment"/>
+        <!-- deprecated in favour of Generic.WhiteSpace.LanguageConstructSpacing -->
+        <exclude name="Squiz.WhiteSpace.LanguageConstructSpacing"/>
     </rule>
+
+    <rule ref="Generic.WhiteSpace.LanguageConstructSpacing"/>
 
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
         <properties>
