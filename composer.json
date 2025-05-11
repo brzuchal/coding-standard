@@ -1,5 +1,6 @@
 {
   "name": "brzuchal/coding-standard",
+  "type": "phpcodesniffer-standard",
   "description": "Brzuchal Personal coding standard",
   "license": "MIT",
   "require": {
