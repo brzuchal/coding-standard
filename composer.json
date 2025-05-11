@@ -1,5 +1,5 @@
 {
-  "name": "cd /coding-standard",
+  "name": "brzuchal/coding-standard",
   "description": "Brzuchal Personal coding standard",
   "license": "MIT",
   "require": {
