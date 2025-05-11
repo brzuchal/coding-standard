@@ -1,0 +1,16 @@
+{
+  "name": "cd /coding-standard",
+  "description": "Brzuchal Personal coding standard",
+  "license": "MIT",
+  "require": {
+    "php": "^8.4",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
+    "doctrine/coding-standard": "^13.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "sort-packages": true
+  }
+}
